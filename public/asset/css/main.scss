@@ -1,0 +1,40 @@
+$Della: "Della Respira", serif;
+$Karma: "Karma", serif;
+$Libre: "Libre Baskerville", serif;
+$Poppins: "Poppins", sans-serif;
+$Quattrocento: "Quattrocento Sans", sans-serif;
+$Roboto: "Roboto", sans-serif;
+$Jomhuria: "Jomhuria", cursive; //Judul Arab
+$Mirza: "Mirza", serif; //Latin
+$Tajawal: "Tajawal", sans-serif; // Arti
+
+$baseColor: #1e3050;
+$baseColors: #7fd454;
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: $Libre;
+    
+}
+body{
+    background-color: #f7f7f7;
+}
+
+.doa-sectisasson {
+    .doa {
+        .doa {
+            .sumber {
+                font-family: $Jomhuria;
+                color: #f79327;
+            }
+            .latin {
+                font-family: $Mirza;
+            }
+            .artinya {
+                font-family: $Tajawal;
+            }
+        }
+    }
+}

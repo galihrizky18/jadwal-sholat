@@ -1,0 +1,21 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+}
+
+body {
+  background-color: #f7f7f7;
+}
+
+.doa-sectisasson .doa .doa .sumber {
+  font-family: "Jomhuria", cursive;
+  color: #f79327;
+}
+.doa-sectisasson .doa .doa .latin {
+  font-family: "Mirza", serif;
+}
+.doa-sectisasson .doa .doa .artinya {
+  font-family: "Tajawal", sans-serif;
+}/*# sourceMappingURL=main.css.map */
