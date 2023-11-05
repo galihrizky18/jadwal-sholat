@@ -17,17 +17,9 @@ use Inertia\Inertia;
 |
 */
 
-// Route::get('/', function () {
-//     return Inertia::render('Welcome', [
-//         'canLogin' => Route::has('login'),
-//         'canRegister' => Route::has('register'),
-//         'laravelVersion' => Application::VERSION,
-//         'phpVersion' => PHP_VERSION,
-//     ]);
-// });
+
 Route::get('/', [UserController::class, 'dashboard']);
 Route::get('/tes', [UserController::class, 'tes']);
 Route::get('/jadwal-sholat', [UserController::class, 'jadwalSholat']);
 Route::get('/doa', [UserController::class, 'doa']);
 
-require __DIR__.'/auth.php';
