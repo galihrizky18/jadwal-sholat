@@ -9,19 +9,24 @@ import { useEffect, useState } from "react";
 
 const Dashboard = () => {
     const scrollToCategory = (offset, e) => {
-        window.scrollTo({
-            top: offset,
-            behavior: "smooth"
-        })
-    }
+        if (typeof window !== "undefined") {
+            window.scrollTo({
+                top: offset,
+                behavior: "smooth",
+            });
+        }
+    };
 
     return (
         <div className="dashboard">
             <Head title="Dashboard" />
-            <Navbar scrollToCategory= {scrollToCategory}/>
+            <Navbar scrollToCategory={scrollToCategory} />
             <Hero />
 
-            <div id="feature" className="feature sm:absolute w-full sm:top-[90%] sm:z-10">
+            <div
+                id="feature"
+                className="feature sm:absolute w-full sm:top-[90%] sm:z-10"
+            >
                 <Feature />
             </div>
 
@@ -31,7 +36,7 @@ const Dashboard = () => {
 
             <div className="isi h-[500px]"></div>
 
-            <div id="footer" className="footer hidden sm:block" >
+            <div id="footer" className="footer hidden sm:block">
                 <Footer />
             </div>
         </div>

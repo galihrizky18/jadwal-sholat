@@ -21,7 +21,10 @@
         "vite": "^4.0.0"
     },
     "dependencies": {
+        "@inertiajs/inertia-react": "^0.8.1",
         "cors": "^2.8.5",
+        "react-router-dom": "^6.18.0",
+        "react-select": "^5.7.7",
         "source-map-support": "^0.5.21",
         "tw-elements": "^1.0.0"
     }

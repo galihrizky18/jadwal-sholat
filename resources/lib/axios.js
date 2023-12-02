@@ -1,7 +1,5 @@
 import axios from "axios";
 
 export const axiosInstance = axios.create({
-    baseURL: 'https://api.myquran.com/v1'
+    baseURL: "https://api.myquran.com/v1",
 });
-
-

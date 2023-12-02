@@ -6,7 +6,7 @@ const classNameContainer =
 const DoaSection = () => {
     initTE({ Carousel });
     return (
-        <div className="doa h-[500px]">
+        <div className="doa h-[500px] text-black">
             <div
                 id="carouselExampleControls"
                 className="relative h-full"
